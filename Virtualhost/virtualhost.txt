@@ -1,0 +1,6 @@
+Add these lines to C:\xampp\apache\conf\extra\httpd-vhosts.conf
+<VirtualHost *:80>
+    ServerName www.sri.com
+    ServerAlias sri.com
+    DocumentRoot "C:/xampp/htdocs/sri"
+</VirtualHost>
